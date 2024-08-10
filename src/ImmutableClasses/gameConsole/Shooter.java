@@ -1,0 +1,17 @@
+package ImmutableClasses.gameConsole;
+
+public record Shooter(String name) implements Player {
+
+    boolean findPrize(){
+        System.out.println("Prize found, score should be adjusted");
+        return false;
+    }
+
+    boolean userWeapon(String weapon){
+        System.out.println("You shoot your "+ weapon);
+        return false;
+    }
+
+
+
+}
