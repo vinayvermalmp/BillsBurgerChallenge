@@ -1,4 +1,5 @@
- public class FirstClass {
+package interviewTest;
+public class FirstClass {
 
         public static int count = 0;
 
